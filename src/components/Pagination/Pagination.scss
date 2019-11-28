@@ -1,0 +1,21 @@
+.Pagination{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  .Pagination__pageNumber{
+    border: 1px solid burlywood;
+    padding: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .Pagination__pageNumber:hover {
+    background: burlywood;
+    color: whitesmoke;
+  }
+  .active {
+    background: burlywood;
+    color: whitesmoke;
+  }
+}

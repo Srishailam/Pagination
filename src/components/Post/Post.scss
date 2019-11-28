@@ -1,0 +1,8 @@
+.Post{
+  border-bottom: 1px solid burlywood;
+  padding: 10px 5px;
+  text-align: left;
+}
+.Post:last-child {
+  border-bottom: none;
+}
